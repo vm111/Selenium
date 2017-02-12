@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]">
+  <parameter name="site" value="hdfc"/>
+  <parameter name="url" value="http://www.hdfcbank.com/"/>
+  <test name="Test1(failed)">
+    <parameter name="site" value="hdfc"/>
+    <parameter name="url" value="http://www.hdfcbank.com/"/>
+    <classes>
+      <class name="com.NewTest">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.NewTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

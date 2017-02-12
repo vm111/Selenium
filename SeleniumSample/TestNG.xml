@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
-  <test name="Test">
+<suite name="Suite" parallel="none" thread-count="1">
+  <test name="Test1">
+  <parameter name="url" value="http://www.hdfcbank.com/"/>
+  <parameter name="site" value="hdfc"/>
     <classes>
       <class name="com.NewTest"/>
     </classes>
   </test> <!-- Test -->
+<!--   <test name="Test2">
+    <classes>
+      <class name="com.NewTest"/>
+    </classes>
+  </test> 
+    <test name="Test3">
+    <classes>
+      <class name="com.NewTest"/>
+    </classes>
+  </test>  -->
 </suite> <!-- Suite -->
